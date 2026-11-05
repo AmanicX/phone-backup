@@ -1,0 +1,12 @@
+# Ignore the 10 large raw partition images; they are tracked via .part slices
+# and can be reassembled anytime using ./reassemble-partitions.sh or reassemble-partitions.bat
+partitions/boot_a.img
+partitions/boot_b.img
+partitions/recovery_a.img
+partitions/recovery_b.img
+partitions/modem_a.img
+partitions/modem_b.img
+partitions/op1.img
+partitions/op2.img
+partitions/opproduct_a.img
+partitions/opproduct_b.img
